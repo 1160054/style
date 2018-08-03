@@ -1,0 +1,187 @@
+@import url("https://blog.hatena.ne.jp/-/theme/8599973812270629022.css");
+@charset "UTF-8";
+body {
+  font-family: 游ゴシック, YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
+  color: #383838;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+}
+
+li, .entry-title {
+  font-family: 游ゴシック, YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
+}
+
+#title a {
+  font-weight: bold;
+  font-family: 游ゴシック, YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
+  color: #383838;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+}
+
+#blog-description {
+  font-family: 游ゴシック, YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
+  font-weight: 300 !important;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+  }
+
+h1, h2, h3, h4, h5, h6, h7 {
+  font-family: 游ゴシック, YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+.entry-content p, th, td {
+    font-family: 游ゴシック, YuGothic, "Yu Gothic", "ヒラギノ角ゴ ProN W3", "Hiragino Kaku Gothic ProN", Meiryo, Helvetica, Arial, sans-serif;
+  color: #6f6f6f;
+  font-size: 15px;
+  letter-spacing: 1.5px;
+  line-height: 1.4;
+}
+
+#blog-title-inner {
+  background-position: -5px 85px !important;
+  background-size: 170px !important;
+}
+
+#blog-title {
+  padding: 0px 0 !important;
+}
+
+.header-image-enable #blog-title #title a, .header-image-enable #blog-title #blog-description {
+  color: #444444;
+  text-shadow: none;
+}
+
+strong {
+  font-size: 101%;
+  padding-left: 1px;
+  padding-right: 1px;
+  font-weight: bold;
+  background: linear-gradient(transparent 90%, #f00 100%);
+  padding-bottom: 0em;
+  font-weight: normal;
+}
+
+.entry-content h3 {
+  background-color: #3EC6C0 !important;
+  color: white !important;
+  padding: 10px !important;
+}
+.entry-content h4 {
+  color: #3EC6C0;
+  border-bottom: 1px dotted #34c6c1 !important;
+}
+.entry-content th {
+  white-space: nowrap;
+}
+.entry-content img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  object-position: 0% 0%;
+}
+.entry-content ul, .entry-content ol {
+  padding: 1em 2em !important;
+  margin: 10px 10px 20px 10px !important;
+  border: 1px solid #d2d7e5 !important;
+}
+.entry-content .qa {
+  border: solid 0px #d2d7e5;
+}
+.entry-content .qa p {
+  border-bottom: 1px dashed pink;
+  font-weight: bold;
+}
+.entry-content .qa p:before {
+  content: "Q. ";
+  color: pink;
+  font-weight: bold;
+}
+.entry-content .qa blockquote {
+  border-left: 1px solid skyblue;
+}
+.entry-content .qa blockquote:before {
+  content: "A. ";
+  color: skyblue;
+  font-weight: bold;
+}
+
+#contact-form table {
+  width: 100%;
+  table-layout: fixed;
+  word-break: break-word;
+}
+#contact-form th {
+  background: none;
+}
+#contact-form input, #contact-form textarea {
+  margin: 0;
+  padding: 0;
+  background: none;
+  border: none;
+  border-radius: 0;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  resize: none;
+  width: 100%;
+}
+#contact-form input:focus, #contact-form textarea:focus {
+  border-bottom: 1px solid #4eacd1;
+}
+
+#submit {
+  background: #fb9696 !important;
+  color: #fff !important;
+  border: 1px solid transparent !important;
+  width: 50% !important;
+  padding: 10px 8px !important;
+  font-size: 110% !important;
+  box-sizing: border-box !important;
+  border-top-right-radius: 4px !important;
+  border-bottom-right-radius: 0 !important;
+  border-bottom-left-radius: 0 !important;
+  border-top-left-radius: 0 !important;
+  border-radius: 4px !important;
+  display: inline-block !important;
+  text-align: center !important;
+  white-space: normal !important;
+  -webkit-appearance: button !important;
+  cursor: pointer !important;
+  margin: 0 !important;
+}
+
+.entry-thumb, .related-entries .urllist-image, .entry-footer-section, .date, .categories {
+  display: none;
+}
+
+@media screen and (max-width: 640px) {
+  .archive-entry-header {
+    width: -webkit-calc(100% - 0px);
+    width: calc(100% - 0px);
+    float: right;
+  }
+
+  #blog-title #title {
+    font-size: 1.7em !important;
+  }
+
+  #blog-title-inner {
+    background-position: -5px 115px !important;
+    background-size: 130px !important;
+  }
+
+  .page-archive .entry-thumb, #box2 .urllist-image {
+    border: 0px solid #454545;
+  }
+}
+@media screen and (min-width: 769px) {
+  #container {
+    border: none !important;
+  }
+}
